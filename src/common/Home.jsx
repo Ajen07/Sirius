@@ -43,10 +43,16 @@ export const Home = () => {
           </div>
         </div>
         <div className="mini-page-2 min-w-[50%] w-fit flex justify-center items-center">
-          <div className="form min-w-[260px] bg-green-600/40 bg-opacity-80 backdrop-blur-sm animate-slideup  min-h-[280px] rounded-2xl flex flex-col items-center justify-center gap-10 text-white">
-            <input type="text" className='outline-none rounded-md py-[4px] px-[4px] pl-[10px] placeholder-white bg-white/40 bg-opacity-80 backdrop-blur-sm' placeholder='Username' name="" id="" />
-            <input type="password" className='outline-none rounded-md py-[4px] px-[5px] pl-[10px] bg-white/40 bg-opacity-80 backdrop-blur-sm placeholder-white' placeholder='Password' name="" id="" />
+          <div className="form min-w-[260px] bg-green-600/40 bg-opacity-80 backdrop-blur-sm animate-slideup  min-h-[280px] rounded-2xl flex flex-col items-center justify-center text-white">
+            <input type="text" className='outline-none rounded-md py-[4px] px-[4px] pl-[10px] placeholder-white bg-white/40 bg-opacity-80 backdrop-blur-sm mb-5' placeholder='Username' name="" id="" />
+            <input type="password" className='outline-none rounded-md py-[4px] px-[5px] pl-[10px] bg-white/40 bg-opacity-80 backdrop-blur-sm placeholder-white mb-5' placeholder='Password' name="" id="" />
+            <div className="button flex flex-col right-0">
+              <p href="" className="forget-password text-right text-xs cursor-pointer hover:text-blue-500 mb-2">
+                forget password?
+              </p>
             <button type="submit" className='Sign-In bg-orange-600 font-bold transition ease-in-out  hover:-translate-y-1 hover:scale-110 hover:bg-amber-500 duration-300 cursor-pointer px-20 py-2 rounded-lg '>Login</button>
+            </div>
+            
           </div>
         </div>
       </div>
