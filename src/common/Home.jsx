@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Status } from './components/status';
 export const Home = () => {
   const home_style = {
     backgroundImage: "url('https://res.cloudinary.com/dldjt5ca6/image/upload/v1678734274/agritech/agrifarm1_hoskvy.jpg')",
@@ -22,21 +22,7 @@ export const Home = () => {
               <p className="col w-fit m-0"> from scratch </p>
             </div>
           </h1>
-          <div className="status flex flex-wrap gap-[20px] px-[10px] justify-center items-center">
-            <div className="box rounded-xl border-white border-[3px] w-[150px] h-[150px] flex flex-col justify-center items-center">
-              <p>20k</p>
-              <p>Farmers</p>
-            </div>
-            <div className="box rounded-xl border-white border-[3px] w-[150px] h-[150px] flex flex-col justify-center items-center">
-              <p>27k</p>
-              <p>Farm Lands</p>
-            </div>
-            <div className="box rounded-xl border-white border-[3px] w-[150px] h-[150px] flex flex-col justify-center items-center">
-              <p>20k</p>
-              <p>Farmers</p>
-            </div>
-            
-          </div>
+          <Status/>
         </div>
         <div className="mini-page-2 max-w-[50%] lg:ml-auto lg:mr-20 w-fit flex justify-center items-center">
           <div className="form min-w-[260px] bg-green-600/40 bg-opacity-80 backdrop-blur-sm animate-slideup  min-h-[280px] rounded-2xl flex flex-col items-center justify-center text-white">
@@ -55,4 +41,14 @@ export const Home = () => {
       <div className="footer"></div>
     </div>
   )
+  0
+
+
+
+
+
+
+
+
+  
 }
