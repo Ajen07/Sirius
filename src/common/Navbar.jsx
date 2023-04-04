@@ -43,6 +43,9 @@ export const Navbar = () => {
             <li>
                 <Link to="/Contact"> Contact </Link>
             </li>
+            <li>
+                <Link to="/Auth" className='btn'> LogIn </Link>
+            </li>
         </ul>
         <div className='hamburger' onClick={handleClick}>
             {click ? (<FaTimes size={20} style={ { color: "#fff" }} />)

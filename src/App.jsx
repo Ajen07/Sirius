@@ -5,6 +5,7 @@ import { Home } from './routes/Home'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { Pricing } from './routes/Pricing'
 import { Contact } from './routes/Contact'
+import Login from './common/Login'
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
           <Route path="/About" element={<About />}></Route>
           <Route path="/Pricing" element={<Pricing />}></Route>
           <Route path="/Contact" element={<Contact />}></Route>
+          <Route path="/Auth" element={<Login/>}></Route>
         </Routes>
       </BrowserRouter>
     </>

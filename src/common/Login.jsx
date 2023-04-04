@@ -5,6 +5,7 @@
 import React from "react";
 import logo from "../assets/logo.png";
 import { FaUserAlt, FaLock } from "react-icons/fa";
+
 function Login() {
   const images = [
     {
@@ -13,6 +14,7 @@ function Login() {
   ];
   return (
     <>
+
       {/* background */}
       <div className="w-screen lg:h-screen bg-[#049467] lg:py-16 lg:px-8 p-8 md:px-12">
         {/* Sign Up or Sign In card */}
